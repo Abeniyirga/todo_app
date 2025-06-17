@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS todo;
+
+USE todo;
+
+CREATE TABLE tasks (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(100) NOT NULL,
+    status ENUM('pending', 'done') DEFAULT 'pending',
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);

@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+    background: #f2f2f2;
+}
+
+.wrapper {
+    max-width: 600px;
+    background: #fff;
+    padding: 30px;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 8px 15px;
+    margin-left: 10px;
+}
+
+ul.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.task-form {
+    margin: 0;
+}
+
+.done span {
+    text-decoration: line-through;
+    color: green;
+}
+
+.delete-btn {
+    color: red;
+    text-decoration: none;
+}
