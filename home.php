@@ -39,6 +39,6 @@ include('config/db.php');
         </li>
         <?php endwhile; } ?>
     </ul>
-</div>
+</div>  
 </body>
-</html>  
+</html>   
